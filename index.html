@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>hi</title>
+    <title>Will You Be Mine? ❤️</title>
     <style>
         body {
             font-family: Arial, sans-serif;
@@ -36,19 +36,19 @@
 </head>
 <body>
 
-    <h1>Hii Liyadiiiii💖</h1>
+    <h1>Will You Be My Girlfriend? 💖</h1>
     <p>You are the most special person in my life, and I want to make you mine forever! 💕</p>
     
-    <button class="btn yes" onclick="alert('Yay!Muhje pata hi tha!')">Yes 💘</button>
-    <button class="btn no" onclick="convertToYes()">No 🙈</button>
+    <button class="btn yes" onclick="convertToNo()">Yes 💘</button>
+    <button class="btn no" onclick="alert('Aww! You broke my heart! 😭')">No 🙈</button>
 
     <script>
-        function convertToYes() {
-            alert("Oops! 'No' is not an option! 😜");
+        function convertToNo() {
+            alert("Haha! Just kidding! 'Yes' is not an option! 😆");
             setTimeout(() => {
-                document.querySelector('.no').innerText = "Yes 💘";
-                document.querySelector('.no').style.backgroundColor = "lightgreen";
-                document.querySelector('.no').setAttribute("onclick", "alert('Yay!Muhje pata hi tha! ❤️')");
+                document.querySelector('.yes').innerText = "No 🙈";
+                document.querySelector('.yes').style.backgroundColor = "lightcoral";
+                document.querySelector('.yes').setAttribute("onclick", "alert('Aww! You broke my heart! 😭')");
             }, 1000);
         }
     </script>
